@@ -47,6 +47,7 @@ export default Ember.Component.extend(NodeDriver, {
       type: '%%DRIVERNAME%%Config',
       cpuCount: 2,
       memorySize: 2048,
+      diskSize: 2000,
     });
 
     set(this, 'model.%%DRIVERNAME%%Config', config);
